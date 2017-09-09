@@ -1,0 +1,25 @@
+ table {
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+.menu
+{
+	border-radius: 5px;
+	background-color: yellow;
+	border-color: black;
+	width: 125px;
+	height: 30px;
+	text-align: center;
+}
+
+div a
+{
+	color: red;
+	text-decoration: none;
+}
+
+.content
+{
+	border: 2px solid black;
+}
