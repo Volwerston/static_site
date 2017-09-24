@@ -1,10 +1,10 @@
 <html>
 <head>
 <title>Неофіційний сайт ФК "Скала" (Стрий)</title>
-<link rel="stylesheet" href="/website/styles/styles.css">
-  <link rel="stylesheet" href="/website/styles/bootstrap.min.css">
- <script src="/website/scripts/jquery.min.js"></script>
- <script src="/website/scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href=" styles/styles.css">
+  <link rel="stylesheet" href=" styles/bootstrap.min.css">
+ <script src=" scripts/jquery.min.js"></script>
+ <script src=" scripts/bootstrap.min.js"></script>
 </head>
 <body style="background-color: red">
 <nav class="navbar navbar-default">
@@ -13,25 +13,54 @@
       <a class="navbar-brand" href="#">ФК Скала</a>
     </div>
     <ul class="nav navbar-nav">
-      <li><a href="/website/index.html">Головна</a></li>
-      <li><a href="/website/history.html">Історія</a></li>
-      <li class="active"><a href="/website/team.html">Команда</a></li>
-      <li><a href="/website/schedule.html">Календар ігор</a></li>
-      <li><a href="/website/standings.html">Турнірна таблиця</a></li>
+      <li><a href=" index.html">Головна</a></li>
+      <li><a href=" history.html">Історія</a></li>
+      <li class="active"><a href=" team.html">Команда</a></li>
+      <li><a href=" schedule.html">Календар ігор</a></li>
+      <li><a href=" standings.html">Турнірна таблиця</a></li>
     </ul>
   </div>
 </nav>
 <table width="900px" align="center">
-<tr style="height: 200px"><td><img src="/website/images/logo.png" style="width: 900px; height: 200px"/></td></tr>
+<tr style="height: 200px"><td><img src=" images/logo.png" style="width: 900px; height: 200px"/></td></tr>
 <td><marquee><u><i><p>Вітаємо Вас на неофіційному сайті ФК "Скала" (Стрий) !</p></u></i></marquee></td>
 <tr style="height: 550px">
 <td style="background-color: white" valign="top" align="center">
 <h2><i>Склад команди</i></h2>
 <img src="images/team_2015-2016.jpg" />
 <br /><br /><br />
+<div class="form-horizontal">
+<div class="form-group col-sm-6 col-sm-push-3">
+<select id="select_player" class="form-control">
+<option value="1" selected>Денис Завгородній</option>
+<option value="2" >Роман Герич</option>
+<option value="3" >Валерій Бондаренко</option>
+<option value="4" >Едуард Мись</option>
+<option value="5" >Петро Стасюк</option>
+<option value="6" >Роман Ботвинник</option>
+<option value="7" >Роман Подоляк</option>
+<option value="8" >Тарас Максимович</option>
+<option value="9" >Юрій Антонів</option>
+<option value="10" >Андрій Маляренко</option>
+<option value="11" >Білала Роланд</option>
+<option value="12" >Богдан Іванченко</option>
+<option value="13" >Віталій Рябушко</option>
+<option value="14" >Владислав Клименко</option>
+<option value="15" >Володимир Пришнівський</option>
+<option value="16" >Дмитро Скакун</option>
+<option value="17" >Віталій Березовий</option>
+<option value="18" >Назар Кміть</option>
+<option value="19" >Василь Цюцюра</option>
+<option value="20" >Олег Квич</option>
+<option value="21" >Сергій Мельник</option>
+</select>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
 <table style="border: none" align="center">
 <tbody>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_1" width="300px" style="background-color: gray;" valign="top">
 <td>
 <img src="images/player1.jpg" width="150px" height="200px" />
 </td>
@@ -43,7 +72,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_2" width="300px" style="background-color: gray;" valign="top">
 <td>
 <img src="images/player2.jpg" width="150px" height="200px" />
 </td>
@@ -55,7 +84,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_3" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player3.jpg" width="150px" height="200px" />
 </td>
@@ -67,7 +96,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_4" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player4.jpg" width="150px" height="200px" />
 </td>
@@ -80,7 +109,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_5" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player5.jpg" width="150px" height="200px" />
 </td>
@@ -94,7 +123,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_6" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player6.jpg" width="150px" height="200px" />
 </td>
@@ -106,7 +135,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_7" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player7.jpg" width="150px" height="200px" />
 </td>
@@ -118,7 +147,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_8" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player8.jpg" width="150px" height="200px" />
 </td>
@@ -131,7 +160,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_9" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player9.jpg" width="150px" height="200px" />
 </td>
@@ -143,7 +172,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_10" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player10.jpg" width="150px" height="200px" />
 </td>
@@ -158,7 +187,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_11" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player11.jpg" width="150px" height="200px" />
 </td>
@@ -175,7 +204,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_12" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player12.jpg" width="150px" height="200px" />
 </td>
@@ -188,7 +217,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_13" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player13.jpg" width="150px" height="200px" />
 </td>
@@ -201,7 +230,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_14" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player14.jpg" width="150px" height="200px" />
 </td>
@@ -213,7 +242,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_15" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player15.jpg" width="150px" height="200px" />
 </td>
@@ -225,7 +254,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_16" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player16.jpg" width="150px" height="200px" />
 </td>
@@ -237,7 +266,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_17" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player17.jpg" width="150px" height="200px" />
 </td>
@@ -249,7 +278,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_18" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player18.jpg" width="150px" height="220px" />
 </td>
@@ -261,7 +290,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_19" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player19.jpg" width="150px" height="210px" />
 </td>
@@ -274,7 +303,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_20" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player20.jpg" width="150px" height="200px" />
 </td>
@@ -286,7 +315,7 @@
 </p>
 </td>
 </tr>
-<tr width="300px" style="background-color: gray" valign="top">
+<tr id="player_21" width="300px" style="background-color: gray" valign="top">
 <td>
 <img src="images/player21.jpg" width="150px" height="200px" />
 </td>
@@ -302,9 +331,21 @@
 <br />
 </tbody>
 </table>
+</div>
+</div>
 </td> 
 </tr>
 </table>
-
+<script type="text/javascript">
+$(document).ready(function(){
+	$('tr[id^="player"]').css("display","none");
+	$("#player_1").css("display", "block");
+	
+	$("#select_player").change(function(){
+		$('tr[id^="player"]').css("display","none");
+		$("#player_" + $(this).val()).css("display", "block");		
+	});
+});
+</script>
 </body>
 </html>
